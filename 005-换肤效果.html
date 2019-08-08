@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>换肤</title>
+	<link rel="stylesheet" href="css/beijing1.css" id="beijing">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<script>
+		function beijingHua() {
+			document.getElementById('beijing').href="css/beijing1.css"
+		}
+		function beijingCao() {
+			document.getElementById('beijing').href="css/beijing2.css"
+		}
+
+	</script>
+</head>
+<body>
+	<input type="button" value="花" onclick="beijingHua()">
+	<input type="button" value="草" onclick="beijingCao()">
+</body>
+</html>
