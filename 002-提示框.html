@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>提示框</title>
+	<style>
+		div{
+			display: none;
+			width: 160px;
+			font-size: 14px;
+			border: 1px solid;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- <input type="checkbox"
+	onmouseover="box.style.display='block'"
+	onmouseout="box.style.display='none'">记住密码
+	这种写法不是很规范
+	<div id="box">勾选此项后下次自动记住密码（不建议在网吧、宾馆等公共场所电脑内执行此操作）</div>
+	规范如下： -->
+	<input type="checkbox"
+	onmouseover="document.getElementById('box').style.display='block'"
+	onmouseout="document.getElemntById('box').style.display='none'">记住密码
+	<div id="box">勾选此项后下次自动记住密码（不建议在网吧、宾馆等公共场所电脑内执行此操作）
+
+	<!-- 
+	敲黑板：
+	规范写法如下：
+	动作="document.getElementById('id名')".大属性(style).小属性(color/display...)-->
+</body>
+</html>
